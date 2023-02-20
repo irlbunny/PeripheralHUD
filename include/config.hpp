@@ -25,30 +25,4 @@ DECLARE_CONFIG(PeripheralHUDConfig,
     CONFIG_VALUE(MultiplierPositionX, float, "MultiplierPositionX", 250.f);
     CONFIG_VALUE(MultiplierPositionY, float, "MultiplierPositionY", 200.f);
     CONFIG_VALUE(MultiplierScale, float, "MultiplierScale", 1.f);
-
-    CONFIG_INIT_FUNCTION(
-        // Combo
-        CONFIG_INIT_VALUE(HideWorldCombo);
-        CONFIG_INIT_VALUE(HideCameraCombo);
-
-        CONFIG_INIT_VALUE(ComboPositionX);
-        CONFIG_INIT_VALUE(ComboPositionY);
-        CONFIG_INIT_VALUE(ComboScale);
-
-        // Score
-        CONFIG_INIT_VALUE(HideWorldScore);
-        CONFIG_INIT_VALUE(HideCameraScore);
-
-        CONFIG_INIT_VALUE(ScorePositionX);
-        CONFIG_INIT_VALUE(ScorePositionY);
-        CONFIG_INIT_VALUE(ScoreScale);
-
-        // Multiplier
-        CONFIG_INIT_VALUE(HideWorldMultiplier);
-        CONFIG_INIT_VALUE(HideCameraMultiplier);
-
-        CONFIG_INIT_VALUE(MultiplierPositionX);
-        CONFIG_INIT_VALUE(MultiplierPositionY);
-        CONFIG_INIT_VALUE(MultiplierScale);
-    )
 )
