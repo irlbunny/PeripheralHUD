@@ -1,7 +1,7 @@
 {
   "_QPVersion": "0.1.1",
   "name": "PeripheralHUD",
-  "id": "",
+  "id": "peripheralhud",
   "author": "Kaitlyn",
   "version": "1.1.1",
   "packageId": "com.beatgames.beatsaber",
