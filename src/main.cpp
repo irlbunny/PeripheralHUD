@@ -2,8 +2,6 @@
 #include "plugin.hpp"
 #include "config.hpp"
 
-DEFINE_CONFIG(PeripheralHUDConfig);
-
 Logger& getLogger() {
     static Logger* logger = new Logger(modInfo, LoggerOptions(false, true));
     return *logger;
