@@ -6,6 +6,8 @@
 #include "GlobalNamespace/ImmediateRankUIPanel.hpp"
 #include "GlobalNamespace/ScoreMultiplierUIController.hpp"
 #include "UnityEngine/RenderMode.hpp"
+#include "UnityEngine/GameObject.hpp"
+#include "UnityEngine/Object.hpp"
 #include "config.hpp"
 
 DEFINE_TYPE(PeripheralHUD, CustomHUDController);
