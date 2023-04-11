@@ -3,9 +3,9 @@
   "name": "PeripheralHUD",
   "id": "peripheralhud",
   "author": "Kaitlyn",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "packageId": "com.beatgames.beatsaber",
-  "packageVersion": "1.27.0_3631150051",
+  "packageVersion": "1.28.0_4124311467",
   "description": "Move your in-game HUD into your peripheral vision, allowing for easy at-a-glance viewing of your combo, score, etc!",
   "coverImage": "cover.png"
 }
