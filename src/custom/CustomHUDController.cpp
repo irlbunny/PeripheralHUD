@@ -64,7 +64,12 @@ void PeripheralHUD::CustomHUDController::Initialize(Zenject::DiContainer* contai
     using namespace GlobalNamespace;
     using namespace UnityEngine;
 
-    MainCamera* mainCamera = container->Resolve<MainCamera*>();
+    MainCamera* mainCamera = container->TryResolve<MainCamera*>();
+    if (!mainCamera) {
+        getLogger().error("PeripheralHUD: MainCamera not found!");
+        return;
+    }
+
     GameObject* coreGameHUDControllerGO = rootObject->GetComponentInChildren<CoreGameHUDController*>(true)->get_gameObject();
 
     // Combo
